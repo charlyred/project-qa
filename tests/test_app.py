@@ -37,7 +37,7 @@ class TestAislamiento(unittest.TestCase):
     def test_02_resta(self):
         """Test independiente 2 - NO depende del test 1"""
         resultado = self.datos_test['valor'] - 3
-        self.assertEqual(resultado, 7)
+        self.assertEqual(resultado, 6)
         print("[TEST 2] [OK] Resta correcta")
     
     def test_03_aislamiento_datos(self):
